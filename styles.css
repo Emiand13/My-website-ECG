@@ -1,0 +1,43 @@
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .btn {
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+  }
+  
+  .navbar.transparent {
+    background-color: transparent;
+  }
+  .header-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .header-box h1, .header-box p {
+    color: #fff;
+  }
+  header{
+    height: 300px;
+  }
+
+  
